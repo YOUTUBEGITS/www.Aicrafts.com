@@ -1,3 +1,13 @@
+import { WebSocketServer } from "ws";
+
+const wss = new WebSocketServer({ port: 3002 });
+
+client.on("update", (update) => {
+  wss.clients.forEach(ws => {
+    ws.send(JSON.stringify(update));
+  });
+});
+
 # emoji-cheat-sheet
 
 [![Up to Date]([Video.Guru_20260103_120300824.mp4](https://github.com/user-attachments/assets/528d88af-5631-4aca-9d36-e4a90ba075ea))]([https://youtube.com/playlist?list=PL9gYSL74h0Ig8kz1x5WPzgJ6L-VIlKEb7&si=Ay6yarSWW2rupp6Y](https://github.com/user-attachments/assets/528d88af-5631-4aca-9d36-e4a90ba075ea))
