@@ -1,6 +1,6 @@
 
-- [x] #YOUTUBE
-- [ ] NEXT
+- [] #YOUTUBE
+- [] NEXT
 - [ ] PLAYLIST :tada:
 
 
